@@ -1,0 +1,22 @@
+.places {
+    width: calc(100% - 100px*2);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .places {
+        /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
+        width: 100%;
+    } 
+   }
+   @media screen and (max-width: 1023px) {
+    .places {
+       /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
+       width: 100%;
+    } 
+   }
+   @media screen and (max-width: 767px) {
+    .places {
+        width: 100%;
+    } 
+   }

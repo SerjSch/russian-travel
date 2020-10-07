@@ -1,0 +1,16 @@
+.place__title{
+margin: 0;
+font-weight: 900;
+font-size: 72px;
+line-height: 1.06;
+/* or 106% */
+}
+
+@media screen and (max-width: 767px) {
+    .place__title {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       font-size: 32px;
+       line-height: 35px;
+    } 
+   }
+

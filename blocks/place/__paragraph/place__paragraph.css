@@ -1,0 +1,15 @@
+
+.place__paragraph {
+    font-size: 18px;
+    line-height: 1.63;
+    /* or 29px */
+
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       width: calc(100% - 16px*2);
+       margin: 0 auto;
+    } 
+   }
