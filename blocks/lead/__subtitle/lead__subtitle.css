@@ -6,3 +6,12 @@ text-align: center;
 margin: 0 auto;
 margin-top: 24px;
 }
+@media screen and (max-width: 767px) {
+   .lead__subtitle  {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       max-width: 288px;
+       font-size: 16px;
+       line-height: 1.25;
+       /* or 125% */
+    } 
+   }

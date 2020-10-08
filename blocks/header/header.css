@@ -7,3 +7,24 @@ max-width: 1184px;
 height: 52px;
 margin-top: 28px;
 }
+
+@media screen and (max-width: 1279px) {
+    .header {
+        /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
+        max-width: 928px;
+    } 
+   }
+   @media screen and (max-width: 1023px) {
+    .header {
+       /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
+       max-width: 720px;
+    } 
+   }
+   @media screen and (max-width: 767px) {
+    .header {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       max-width: 288px;
+       margin-top: 16px;
+       height: 42px;
+    } 
+   }

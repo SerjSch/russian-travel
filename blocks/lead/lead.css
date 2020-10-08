@@ -6,3 +6,22 @@ margin: 0 auto;
 flex-direction: column;
 margin-top: 65px;
 }
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
+        max-width: 928px;
+    } 
+}
+@media screen and (max-width: 1023px) {
+    .lead {
+       /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
+       max-width: 720px;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .lead {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       max-width: 288px;
+    } 
+}
