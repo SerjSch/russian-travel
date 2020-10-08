@@ -9,7 +9,7 @@
 margin:0;
 }
 .place__paragraph p:nth-of-type(2) {
-    margin-top:23px;
+    margin-top:24px;
 }
 
 @media screen and (max-width: 767px) {
@@ -17,5 +17,7 @@ margin:0;
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
        width: calc(100% - 16px*2);
        margin: 0 auto;
+       font-size: 16px;
+       line-height: 163%;
     } 
    }

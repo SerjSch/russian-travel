@@ -4,4 +4,12 @@ grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 gap: 16px;
 list-style: none;
 padding: 0;
+margin: 0;
 } 
+
+@media screen and (max-width: 767px) {
+    .photo-grid__list {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       gap: 12px;
+    } 
+   }

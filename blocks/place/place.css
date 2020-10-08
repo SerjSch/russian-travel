@@ -23,5 +23,8 @@
     .place {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
        grid-template-columns: 1fr;
+       row-gap: 32px;
+       margin-top: 0;
+       margin-bottom: 48px;
     } 
    }

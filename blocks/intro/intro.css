@@ -3,3 +3,13 @@ margin: 0 auto;
 max-width: 984px;
 margin-top: 97px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .intro {
+       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
+       width: calc(100% - 16px*2);
+       margin-top: 66px;
+       max-width: 984px;
+    } 
+   }
