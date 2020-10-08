@@ -1,5 +1,6 @@
 .place__link {
 align-self: end;
+cursor:url(../../../images/Pointer.svg), pointer;
 }
 
 .place__link a {
@@ -10,6 +11,7 @@ font-size: 18px;
 line-height: 1.22;
 /* identical to box height, or 122% */
 color: #FFFFFF;
+cursor:url(../../../images/Pointer.svg), pointer;
 }
 
 .place__link span {
