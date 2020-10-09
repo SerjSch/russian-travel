@@ -1,9 +1,12 @@
-.lead__image {margin-top: 64px;}
+.lead__image {
+    margin-top: 64px;
+}
 
 @media screen and (max-width: 1279px) {
     .lead__image {
         /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
         max-width: 928px;
+        margin-top: 56px;
     } 
 }
 @media screen and (max-width: 1023px) {

@@ -5,6 +5,19 @@ margin-top: 97px;
 }
 
 
+
+@media screen and (max-width: 1279px) {
+   .intro {
+       /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
+       padding-left: 48px;
+   } 
+  }
+  @media screen and (max-width: 1023px) {
+   .intro {
+      /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
+
+   } 
+  }
 @media screen and (max-width: 767px) {
     .intro {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
@@ -13,3 +26,4 @@ margin-top: 97px;
        max-width: 984px;
     } 
    }
+
