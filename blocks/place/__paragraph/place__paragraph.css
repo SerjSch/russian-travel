@@ -1,7 +1,7 @@
 .place__paragraph {
     font-size: 18px;
     line-height: 163%;
-    /* or 29px */
+    /* or 29px */   
     align-self: start;
 }
 
@@ -12,6 +12,13 @@ margin:0;
     margin-top:24px;
 }
 
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+       /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
+       font-size: 16px;
+       line-height: 163%;
+    } 
+   }
 @media screen and (max-width: 767px) {
     .place__paragraph {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/

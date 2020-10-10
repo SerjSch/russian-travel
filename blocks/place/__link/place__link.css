@@ -20,7 +20,7 @@ cursor:url(../../../images/Pointer.svg), pointer;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 1;
+    line-height: 100%;
     /* identical to box height, or 100% */
     letter-spacing: 0.2em;
 }

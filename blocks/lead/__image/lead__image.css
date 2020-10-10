@@ -1,24 +1,21 @@
 .lead__image {
-    margin-top: 64px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 6.5%;
 }
 
-@media screen and (max-width: 1279px) {
-    .lead__image {
-        /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
-        max-width: 928px;
-        margin-top: 56px;
-    } 
-}
 @media screen and (max-width: 1023px) {
     .lead__image {
        /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
-       max-width: 768px;
+       width: 100%;
+       margin-top: 7.3%;
     } 
 }
 @media screen and (max-width: 767px) {
     .lead__image {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
-       max-width: 320px;
-       margin-top: 39px;
+       width: 100%;
+       margin-top: 12.5%;
     } 
 }

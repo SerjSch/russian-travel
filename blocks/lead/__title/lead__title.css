@@ -12,6 +12,6 @@ text-align: center;
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
        max-width: 288px;
        font-size: 40px;
-       line-height: 44px;
+       line-height: 110%;
     } 
    }

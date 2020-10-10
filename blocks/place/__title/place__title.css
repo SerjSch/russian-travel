@@ -6,6 +6,22 @@ line-height: 1.06;
 /* or 106% */
 }
 
+@media screen and (max-width: 1279px) {
+   .place__title {
+       /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
+
+   } 
+  }
+  @media screen and (max-width: 1023px) {
+   .place__title {
+      /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
+      font-size: 42px;
+      line-height: 46px;
+      /* identical to box height, or 110% */
+      padding-right: 3%;
+   } 
+  }
+
 @media screen and (max-width: 767px) {
     .place__title {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/

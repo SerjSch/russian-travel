@@ -4,26 +4,26 @@ display: flex;
 justify-content: space-between;
 margin: 0 auto;
 flex-direction: column;
-margin-top: 65px;
+margin-top: 5.4%;
 }
 
 @media screen and (max-width: 1279px) {
     .lead {
         /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
-        max-width: 928px;
-        margin-top: 59px;
+        width: calc(100% - 2*48px);
     } 
 }
 @media screen and (max-width: 1023px) {
     .lead {
        /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
-       max-width: 720px;
+       width: 100%;
+       margin-top: 7.3%;
     } 
 }
 @media screen and (max-width: 767px) {
     .lead {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
-       max-width: 320px;
-       margin-top: 50px
+       width: 100%;
+       margin-top: 16%;
     } 
 }

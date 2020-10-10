@@ -12,5 +12,6 @@ margin: 0;
        font-size: 32px;
        line-height: 35px;
        /* or 109% */
+       padding-right: 15%;
     } 
    }
