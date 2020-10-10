@@ -43,6 +43,7 @@
     .place:last-of-type {
         margin-bottom: 0;
    }
+}
    @media screen and (max-width: 767px) {
     .place {
        /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
