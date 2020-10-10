@@ -1,7 +1,7 @@
 .places {
     width: calc(100% - 100px*2);
     margin: 0 auto;
-    margin-top: 7.7%
+    margin-top: 7.7%;
 }
 
 @media screen and (max-width: 1279px) {
@@ -15,7 +15,7 @@
     .places {
        /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
        width: calc(100% - 24px*2);
-       margin-top: 11.7%
+       margin-top: 11.7%;
     } 
    }
    @media screen and (max-width: 767px) {
