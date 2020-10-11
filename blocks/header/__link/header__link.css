@@ -6,24 +6,15 @@ font-weight: 400;
 font-size: 24px;
 line-height: 1.17;
 margin-left: 18px;
+cursor:url(../../../images/Pointer.svg), pointer;
+}
+.header__link:hover {
+   opacity: 0.6;
 }
 
-@media screen and (max-width: 1279px) {
-    .header__link {
-        /*Этот блок у нас будет отвечать за ширину 1279px - 1024px!*/
-
-    } 
-   }
-   @media screen and (max-width: 1023px) {
-    .header__link{
-       /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
-
-    } 
-   }
-   @media screen and (max-width: 767px) {
-    .header__link {
-       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
-       font-size: 18px;
-       line-height: 20px;
-    } 
-   }
+@media screen and (max-width: 767px) {
+   .header__link {
+      font-size: 18px;
+      line-height: 20px;
+   } 
+}

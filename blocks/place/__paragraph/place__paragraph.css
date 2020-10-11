@@ -2,28 +2,23 @@
     font-size: 18px;
     line-height: 163%;
     align-self: start;
+    margin:0;
 }
-
-.place__paragraph p {
-margin:0;
-}
-.place__paragraph p:nth-of-type(2) {
+.place__paragraph:nth-of-type(2) {
     margin-top:24px;
 }
 
 @media screen and (max-width: 1023px) {
     .place__paragraph {
-       /*Этот блок у нас будет отвечать за ширину 1023px - 768px*/
-       font-size: 16px;
-       line-height: 163%;
+        font-size: 16px;
+        line-height: 163%;
     } 
-   }
+}
 @media screen and (max-width: 767px) {
     .place__paragraph {
-       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
-       width: calc(100% - 16px*2);
-       margin: 0 auto;
-       font-size: 16px;
-       line-height: 163%;
+        width: calc(100% - 16px*2);
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 163%;
     } 
-   }
+}

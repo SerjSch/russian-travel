@@ -1,34 +1,16 @@
 .place__link {
-align-self: end;
-cursor:url(../../../images/Pointer.svg), pointer;
-}
-
-.place__link a {
-display: block;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 1.22;
-/* identical to box height, or 122% */
-color: #FFFFFF;
-cursor:url(../../../images/Pointer.svg), pointer;
-}
-
-.place__link span {
-    text-transform: uppercase;
-    color: #AAAAAA;
+    display: block;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 100%;
-    /* identical to box height, or 100% */
-    letter-spacing: 0.2em;
-}
+    font-size: 18px;
+    line-height: 1.22;
+    /* identical to box height, or 122% */
+    color: #FFFFFF;
+    cursor:url(../../../images/Pointer.svg), pointer;
+    }
+.place__link:hover {
+    opacity: 0.6;
+ }
 
-@media screen and (max-width: 767px) {
-    .place__link {
-       /*Этот блок у нас будет отвечать за ширину 767px - 320px*/
-       display: none;
-    } 
-   }
+
 
