@@ -1,4 +1,6 @@
 .place__span-url {
+  display: block;
+  margin-bottom: 12px;
   text-transform: uppercase;
   color: #AAAAAA;
   font-style: normal;
